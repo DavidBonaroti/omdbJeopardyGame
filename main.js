@@ -4,8 +4,7 @@ $(function () {
       $("#maybe").remove();
       $(".prompt").append("<div id='maybe'><div id='question'></div><input id='input' type='text'><button id = 'button' type='submit'>Submit Answer</button></div>");
       var thisForm = this;
-      var titles = ['batman','big','drive', 'hook', 'the matrix', 'the rock', 'he got game', 'fight club', 'the warriors', 'superbad', 'chinatown', 'back to the future', 'goodfellas', 'alien', 'pulp fiction', 'fargo', 'the master', 'there will be blood', 'jurassic park',
-      'wall street', 'predator', 'die hard', 'true lies'];
+      var titles = ['the matrix', 'fight club', 'the warriors'];
       var title = titles[Math.floor(Math.random() * titles.length)];
       $.ajax({
         type: 'GET',

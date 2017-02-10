@@ -1,0 +1,105 @@
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.subjects {
+  text-align: center;
+}
+
+.questions {
+  text-align: center;
+}
+
+.subjects > div {
+  width:300px;
+  height:75px;
+  display: inline-block;
+  margin: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFD700;
+  background-color: #4169E1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.questions > div {
+  clear: left;
+  display: inline-block;
+  margin: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  width:300px;
+  height:150px;
+  color: #FFD700;
+  background-color: #4169E1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questions > div:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFD700;
+}
+
+#question {
+  width:600px;
+  height:75px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#playAgain {
+  width:600px;
+  height:280px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+#input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
